@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+.background {
+    background: #0e0024;
+    height: 108vh;
+    padding-top: 0.5rem;
+}
+.title {
+    color: #d8eb2a;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+}
+.display {
+    color: #b2f15a;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem;
+}
+.hide {
+    display: none;
+}
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 18.5rem;
+}
+.tile {
+    border: #8d3b9a solid 0.2rem;
+    border-radius: 0.6rem;
+    min-height: 5.8rem;
+    min-width: 5.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+.playerX {
+    color: #b50088;
+}
+.playerO {
+    color: #74e8ff;
+}
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+#reset {
+    background-color: #b2f15a;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+    width: 9rem;
+    font-size: 1.7rem;
+    color: #0e0024;
+    text-decoration: none;
+}
